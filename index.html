@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
+    <!-- Initialize CSS Website -->
+    <link rel="stylesheet" type="text/css" href="./src/css/main.css" />
+    <!-- End Initialize CSS Website -->
+  </head>
+  <body class="font-Shabnam">
+    <!-- Initialize Website -->
+    <!-- Initialize header Website -->
+    <header class="relative">
+      <!-- Initialize desktop header Website -->
+      <div class="header-desktop w-full h-[132px] shadow font-Shabnam">
+        <div class="flex flex-col max-w-screen-xl mx-auto px-4 box-border mt-6">
+          <!-- Initialize desktop header logo search login Website -->
+          <div class="flex justify-between gap-4 items-center">
+            <!-- Initialize desktop header logo search menu site Website -->
+            <div class="flex gap-8 items-center w-2/3">
+              <!-- Initialize desktop header logo box Website -->
+              <a href="/index.html">
+                <img
+                  src="./public/images/header/logo/logo.png"
+                  class="w-24 object-cover object-center"
+                  alt="فروشگاه اینترنتی دسترسی"
+                />
+              </a>
+              <!-- End Initialize desktop header logo box Website -->
+              <!-- Initialize desktop header search box Website -->
+              <div class="search relative flex-1">
+                <div
+                  class="bg-gray flex items-center justify-center pr-2 box-border rounded-xl shadow"
+                >
+                  <label for="search-decoy"></label>
+                  <input
+                    type="search"
+                    name=""
+                    placeholder="جستجو محصولات"
+                    class="w-full bg-transparent pr-1 pl-3 py-2 outline-none font-Shabnam"
+                    id=""
+                  />
+                </div>
+              </div>
+              <!-- End Initialize desktop header search box Website -->
+              <!-- Initialize desktop header menu site box Website -->
+              <div class="flex ml-8">
+                <div class="portlet w-full">
+                  <div class="portlet-content">
+                    <div class="flex gap-4">
+                      <a
+                        class="block pl-3 py-3 text-sm text-gray-light hover-icon font-Shabnam box-border"
+                        href="/customer-club"
+                      >
+                        باشگاه مشتریان
+                      </a>
+                      <a
+                        class="block pl-3 py-3 text-sm text-gray-light hover-icon font-Shabnam box-border"
+                        href="/blog"
+                      >
+                        بلاگ
+                      </a>
+                      <a
+                        class="block pl-3 py-3 text-sm text-gray-light hover-icon font-Shabnam box-border"
+                        href="/contact"
+                      >
+                        ارتباط ما
+                      </a>
+                      <a
+                        class="block pl-3 py-3 text-sm text-gray-light hover-icon font-Shabnam box-border"
+                        href="/about"
+                      >
+                        درباره ما
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Initialize desktop header menu site box Website -->
+            </div>
+            <!-- End Initialize desktop header logo search menu site Website -->
+            <!-- Initialize desktop header login Website -->
+            <div class="flex gap-4 items-center">
+              <a
+                href="/basket"
+                class="shadow flex items-center justify-center hover-icon relative text-thired-color rounded-xl text-sm w-[42px] h-[42px] bg-gray"
+              >
+                <i class="text-xl icon-basket"></i>
+                <span
+                  class="cursor-pointer absolute bg-thired-color flex items-center justify-center rounded-full text-white font-medium basket-count shadow-blue-0-4"
+                  >0</span
+                >
+              </a>
+              <a
+                href="/login"
+                class="shadow flex items-center relative text-sm rounded-xl bg-main-color text-white hover-btn h-[42px] box-border px-3"
+              >
+                <span>ورود و ثبت&zwnj;نام</span>
+              </a>
+            </div>
+            <!-- End Initialize desktop header login Website -->
+          </div>
+          <!-- End Initialize desktop header logo search login Website -->
+          <!-- Initialize desktop header menu Website -->
+          <div class="flex justify-between text-black-60 mt-[20px]">
+            <div class="w-full">
+              <div>
+                <div class="flex w-full justify-between mt-2">
+                  <!-- item 01 -->
+                  <div class="flex items-center nav-link ml-2">
+                    <a
+                      class="block py-4 box-border relative text-xs xl:text-sm font-Shabnam"
+                      href="/"
+                    >
+                      خانه
+                    </a>
+                  </div>
+                  <!-- End item 01 -->
+                  <!-- item 02 -->
+                  <div class="flex items-center nav-link ml-2">
+                    <a
+                      class="block py-4 box-border relative text-xs xl:text-sm font-Shabnam"
+                      href="/"
+                    >
+                      لوازم جانبی موبایل و کامپیوتر
+                    </a>
+                  </div>
+                  <!-- mega menu -->
+
+                  <!-- End mega menu -->
+                  <!-- End item 02 -->
+                  <!-- item 03 -->
+                  <div class="flex items-center nav-link ml-2">
+                    <a
+                      class="block py-4 box-border relative text-xs xl:text-sm font-Shabnam"
+                      href="/"
+                    >
+                      کابل - مبدل - رابط
+                    </a>
+                  </div>
+                  <!-- End item 03 -->
+                  <!-- item 04 -->
+                  <div class="flex items-center nav-link ml-2">
+                    <a
+                      class="block py-4 box-border relative text-xs xl:text-sm font-Shabnam"
+                      href="/"
+                    >
+                      لوازم تولید محتوا
+                    </a>
+                  </div>
+                  <!-- End item 04 -->
+                  <!-- item 05 -->
+                  <div class="flex items-center nav-link ml-2">
+                    <a
+                      class="block py-4 box-border relative text-xs xl:text-sm font-Shabnam"
+                      href="/"
+                    >
+                      لوازم شبکه
+                    </a>
+                  </div>
+                  <!-- End item 05 -->
+                  <!-- item 06 -->
+                  <div class="flex items-center nav-link ml-2">
+                    <a
+                      class="block py-4 box-border relative text-xs xl:text-sm font-Shabnam"
+                      href="/"
+                    >
+                      کنسول بازی و لوازم جانبی
+                    </a>
+                  </div>
+                  <!-- End item 06 -->
+                  <!-- item 07 -->
+                  <div class="flex items-center nav-link ml-2">
+                    <a
+                      class="block py-4 box-border relative text-xs xl:text-sm font-Shabnam"
+                      href="/"
+                    >
+                      لوازم خانگی و شخصی
+                    </a>
+                  </div>
+                  <!-- End item 07 -->
+                  <!-- item 08 -->
+                  <div class="flex items-center nav-link ml-2">
+                    <a
+                      class="block py-4 box-border relative text-xs xl:text-sm font-Shabnam"
+                      href="/"
+                    >
+                      برند‌ها
+                    </a>
+                  </div>
+                  <!-- End item 08 -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Initialize desktop header menu Website -->
+        </div>
+      </div>
+      <!-- End Initialize desktop header Website -->
+    </header>
+    <!-- End Initialize header Website -->
+    <!-- Initialize main Website -->
+    <main class="main-top-padding bg-black-2 relative min-h-screen">
+      <!-- Initialize content wrapper Website -->
+      <div id="content-wrap" class="px-4 pt-14 md:pt-0 box-border">
+        <!-- Initialize slider Website -->
+        <div class="slider max-w-screen-xl mx-auto p-8 box-border">
+          <div class="w-full">
+            <div>
+              <div class="swiper mySwipermainhometopslider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="swiper-slide-home-top-slider-wrapper">
+                      <a
+                        href=""
+                        target="_blank"
+                        class="swiper-slide-home-top-slider-link"
+                      >
+                        <div class="swiper-slide-home-top-slider-link-box">
+                          <img
+                            class="block w-full rounded-xl"
+                            src="./public/images/slider/banner-dastresi-4-min.png"
+                            title=""
+                            alt=""
+                          />
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-slide-home-top-slider-wrapper">
+                      <a
+                        href=""
+                        target="_blank"
+                        class="swiper-slide-home-top-slider-link"
+                      >
+                        <div class="swiper-slide-home-top-slider-link-box">
+                          <img
+                            class="block w-full rounded-xl"
+                            src="./public/images/slider/banner-dastresi-2-min.png"
+                            title=""
+                            alt=""
+                          />
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Initialize slider Website -->
+        <!-- Initialize Off Products Website -->
+        <div class="max-w-screen-xl mx-auto">
+          <div class="w-full">
+            <div
+              class="px-4 pb-4 md:px-12 md:pb-12 xl:mx-4 bg-[#e2e2e2] xl:rounded-xl mb-8 box-border"
+            >
+              <div class="py-6 box-border">
+                <div
+                  class="flex justify-center items-center md:justify-between"
+                >
+                  <div
+                    class="flex items-center gap-2 font-bold text-2xl md:text-4xl"
+                  >
+                    <span class="font-Shabnam">تخفیف‌های روزانه دسترسی</span>
+                  </div>
+                  <div class="hidden md:block text-2xl text-gray">
+                    <span
+                      class="text-md font-medium font-Shabnam"
+                      id="countdown"
+                      >23:11:49</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- products -->
+              <div class="flex flex-col md:flex-row">
+                <div class="column_2 flex">
+                  <a href="/product/Hiska-223PD" class="font-Shabnam">
+                    <div
+                      class="shadow hidden lg:flex h-full rounded-xl flex flex-col bg-white border-l border-b border-gray-e2 p-4 md:ml-6 hover:shadow-product hover:z-50"
+                    >
+                      <div class="relative">
+                        <img
+                          class="w-48 md:w-auto mx-auto"
+                          alt="شارژر دیواری و پاوربانک وایرلس 20000 میلی آمپری 22.5 واتی هیسکا مدل Hiska HP-223PD	"
+                          src="./public/images/Off-products/HISKA-223PD-11.jpg"
+                        />
+                      </div>
+
+                      <div class="flex flex-col flex-1">
+                        <h3
+                          class="font-medium font-Shabnam text-md lh-product-box leading-0 text-black-87 flex-1 my-5 leading-8 en_num"
+                        >
+                          شارژر دیواری و پاوربانک وایرلس 20000 میلی آمپری 22.5
+                          واتی هیسکا مدل Hiska HP-223PD
+                        </h3>
+
+                        <div class="flex flex-col gap-2">
+                          <div class="flex flex-row gap-2 justify-between">
+                            <span
+                              class="font-bold text-black-38 font-Shabnam text-base line-through"
+                            >
+                              3,070,000
+                            </span>
+                            <span
+                              class="text-thired-color font-Shabnam rounded-xl font-medium text-sm"
+                            >
+                              300,000 تومان تخفیف
+                            </span>
+                          </div>
+                          <div
+                            class="flex flex-row items-center justify-end gap-1"
+                          >
+                            <span
+                              class="text-main-color font-bold text-xl font-Shabnam"
+                            >
+                              2,770,000
+                            </span>
+                            <span class="text-black-60 text-xs font-Shabnam">
+                              تومان
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="/product/Oraimo-OTR280" class="font-Shabnam">
+                    <div
+                      class="shadow hidden lg:flex h-full rounded-xl flex flex-col bg-white border-l border-b border-gray-e2 p-4 md:ml-6 hover:shadow-product hover:z-50"
+                    >
+                      <div class="relative">
+                        <img
+                          class="w-48 md:w-auto mx-auto"
+                          alt=""
+                          src="./public/images/Off-products/RISHTARASH-280-11.jpg"
+                        />
+                      </div>
+
+                      <div class="flex flex-col flex-1">
+                        <h3
+                          class="font-medium text-md lh-product-box leading-0 text-black-87 flex-1 my-5 leading-8 en_num font-Shabnam"
+                        >
+                          ماشین اصلاح خط زن اورایمو مدل Oraimo OTR-280
+                        </h3>
+
+                        <div class="flex flex-col gap-2">
+                          <div class="flex flex-row gap-2 justify-between">
+                            <span
+                              class="font-bold text-black-38 text-base line-through font-Shabnam"
+                            >
+                              3,290,000
+                            </span>
+                            <span
+                              class="text-thired-color font-Shabnam rounded-xl font-medium text-sm"
+                            >
+                              1,000,000 تومان تخفیف
+                            </span>
+                          </div>
+                          <div
+                            class="flex flex-row items-center justify-end gap-1"
+                          >
+                            <span
+                              class="text-main-color font-bold text-xl font-Shabnam"
+                            >
+                              2,290,000
+                            </span>
+                            <span class="text-black-60 text-xs font-Shabnam">
+                              تومان
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="flex flex-col justify-between w-full lg:w-auto">
+                  <a
+                    class="lg:hidden mb-6 last:mb-0"
+                    href="/product/Hiska-223PD"
+                  >
+                    <div
+                      class="rounded-xl shadow flex flex-row items-center bg-white border-l border-b border-gray-e2 hover:shadow-product hover:z-50 gap-2"
+                    >
+                      <div class="relative">
+                        <img
+                          class="w-40 mx-auto rounded-r-xl"
+                          alt="شارژر دیواری و پاوربانک وایرلس 20000 میلی آمپری 22.5 واتی هیسکا مدل Hiska HP-223PD	"
+                          src="/upload/filemanager/2025/05/07/HISKA-223PD-11.jpg"
+                        />
+                      </div>
+
+                      <div
+                        class="flex flex-col flex-1 justify-between gap-2 p-3"
+                      >
+                        <h3
+                          class="overflow-hidden font-medium text-sm text-black-87 flex-1 lh-product-box leading-7 en_num"
+                        >
+                          شارژر دیواری و پاوربانک وایرلس 20000 میلی آمپری 22.5
+                          واتی هیسکا مدل Hiska HP-223PD
+                        </h3>
+
+                        <div class="flex flex-col gap-2">
+                          <div class="flex flex-row gap-2 justify-between">
+                            <span
+                              class="font-bold text-black-38 text-base line-through"
+                            >
+                              3,070,000
+                            </span>
+                            <span
+                              class="text-thired-color rounded-xl font-medium text-sm"
+                            >
+                              300,000 تومان تخفیف
+                            </span>
+                          </div>
+
+                          <div
+                            class="flex flex-row items-center justify-end gap-1"
+                          >
+                            <span class="text-color font-bold text-xl">
+                              2,770,000
+                            </span>
+                            <span class="text-black-60 text-xs"> تومان </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+
+                  <a class="mb-6 last:mb-0" href="/product/Mcdodo-CH486">
+                    <div
+                      class="rounded-xl shadow flex flex-row items-center bg-white border-l border-b border-gray-e2 hover:shadow-product hover:z-50 gap-2 font-Shabnam"
+                    >
+                      <div class="relative">
+                        <img
+                          class="w-40 mx-auto rounded-r-xl"
+                          alt=""
+                          src="./public/images/Off-products/MCDODO-486-11.jpg"
+                        />
+                      </div>
+
+                      <div
+                        class="flex flex-col flex-1 justify-between gap-2 p-3"
+                      >
+                        <h3
+                          class="overflow-hidden font-medium text-sm font-Shabnam text-black-87 flex-1 lh-product-box leading-7 en_num"
+                        >
+                          شارژر دیواری 45 واتی مک دودو مدل Mcdodo CH-486
+                        </h3>
+
+                        <div class="flex flex-col gap-2">
+                          <div class="flex flex-row gap-2 justify-between">
+                            <span
+                              class="font-bold font-Shabnam text-black-38 text-base line-through"
+                            >
+                              1,790,000
+                            </span>
+                            <span
+                              class="text-thired-color font-Shabnam rounded-xl font-medium text-sm"
+                            >
+                              300,000 تومان تخفیف
+                            </span>
+                          </div>
+
+                          <div
+                            class="flex flex-row items-center justify-end gap-1"
+                          >
+                            <span
+                              class="text-main-color font-Shabnam font-bold text-xl"
+                            >
+                              1,490,000
+                            </span>
+                            <span class="text-black-60 text-xs"> تومان </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+
+                  <a class="mb-6 last:mb-0" href="/product/Mcdodo-7561">
+                    <div
+                      class="rounded-xl shadow flex flex-row items-center bg-white border-l border-b border-gray-e2 hover:shadow-product hover:z-50 gap-2"
+                    >
+                      <div class="relative">
+                        <img
+                          class="w-40 mx-auto rounded-r-xl"
+                          alt="مبدل USB-C به جک 3.5 میلیمتری مک دودو مدل CA-7561"
+                          src="./public/images/Off-products/USB-C CA-7561.jpg"
+                        />
+                      </div>
+
+                      <div
+                        class="flex flex-col flex-1 justify-between gap-2 p-3 box-border font-Shabnam"
+                      >
+                        <h3
+                          class="overflow-hidden font-medium text-sm text-black-87 flex-1 lh-product-box leading-7 en_num"
+                        >
+                          تبدیل تایپ سی به جک 3.5 میلیمتری مک دودو مدل Mcdodo
+                          CA-7561
+                        </h3>
+
+                        <div class="flex flex-col gap-2">
+                          <div class="flex flex-row gap-2 justify-between">
+                            <span
+                              class="font-bold font-Shabnam text-black-38 text-base line-through"
+                            >
+                              389,000
+                            </span>
+                            <span
+                              class="text-thired-color font-Shabnam rounded-xl font-medium text-sm"
+                            >
+                              100,000 تومان تخفیف
+                            </span>
+                          </div>
+
+                          <div
+                            class="flex flex-row items-center justify-end gap-1"
+                          >
+                            <span
+                              class="text-main-color font-Shabnam font-bold text-xl"
+                            >
+                              289,000
+                            </span>
+                            <span class="text-black-60 font-Shabnam text-xs">
+                              تومان
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+
+                  <a class="mb-6 last:mb-0" href="/product/mcdodo-8600">
+                    <div
+                      class="rounded-xl shadow flex flex-row items-center bg-white border-l border-b border-gray-e2 hover:shadow-product hover:z-50 gap-2"
+                    >
+                      <div class="relative">
+                        <img
+                          class="w-40 mx-auto rounded-r-xl"
+                          alt="تبدیل فلش به موبایل"
+                          src="./public/images/Off-products/8600-1.jpg"
+                        />
+                      </div>
+
+                      <div
+                        class="flex flex-col flex-1 justify-between gap-2 p-3"
+                      >
+                        <h3
+                          class="overflow-hidden font-sans font-medium text-sm text-black-87 flex-1 lh-product-box leading-7 en_num"
+                        >
+                          تبدیل OTG آیفونی مک دودو مدل Mcdodo Otg 8600
+                        </h3>
+
+                        <div class="flex flex-col gap-2">
+                          <div class="flex flex-row gap-2 justify-between">
+                            <span
+                              class="font-bold font-sans text-black-38 text-base line-through"
+                            >
+                              335,000
+                            </span>
+                            <span
+                              class="text-thired-color font-sans rounded-xl font-medium text-sm"
+                            >
+                              100,000 تومان تخفیف
+                            </span>
+                          </div>
+
+                          <div
+                            class="flex flex-row items-center justify-end gap-1"
+                          >
+                            <span
+                              class="text-main-color font-sans font-bold text-xl"
+                            >
+                              235,000
+                            </span>
+                            <span class="text-black-60 font-sans text-xs">
+                              تومان
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!-- End products -->
+            </div>
+          </div>
+        </div>
+        <!-- End Initialize Off Products Website -->
+        <!-- categories -->
+        <div class="max-w-screen-xl mx-auto p-4 xl:rounded-xl mb-8 box-border">
+          <div class="xl:mx-4">
+            <h3
+              class="text-2xl text-center font-bold text-black-87 mb-4 font-Shabnam"
+            >
+              دسته‌بندی‌های منتخب
+            </h3>
+            <div class="w-full">
+              <div></div>
+            </div>
+          </div>
+        </div>
+        <!-- End categories -->
+      </div>
+      <!-- End Initialize content wrapper Website -->
+    </main>
+    <!-- End Initialize main Website -->
+    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+    <script src="./src/js/main.js"></script>
+    <!-- End Initialize Website -->
+  </body>
+</html>

@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Shabnam';
+    src: url('Shabnam.eot');
+    src: url('Shabnam.eot?#iefix') format('embedded-opentype'),
+        url('Shabnam.woff2') format('woff2'),
+        url('Shabnam.woff') format('woff'),
+        url('Shabnam.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Shabnam';
+    src: url('Shabnam-Bold.eot');
+    src: url('Shabnam-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Shabnam-Bold.woff2') format('woff2'),
+        url('Shabnam-Bold.woff') format('woff'),
+        url('Shabnam-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Shabnam';
+    src: url('Shabnam-Bold_1.eot');
+    src: url('Shabnam-Bold_1.eot?#iefix') format('embedded-opentype'),
+        url('Shabnam-Bold_1.woff2') format('woff2'),
+        url('Shabnam-Bold_1.woff') format('woff'),
+        url('Shabnam-Bold_1.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Shabnam';
+    src: url('Shabnam-Light.eot');
+    src: url('Shabnam-Light.eot?#iefix') format('embedded-opentype'),
+        url('Shabnam-Light.woff2') format('woff2'),
+        url('Shabnam-Light.woff') format('woff'),
+        url('Shabnam-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Shabnam';
+    src: url('Shabnam_1.eot');
+    src: url('Shabnam_1.eot?#iefix') format('embedded-opentype'),
+        url('Shabnam_1.woff2') format('woff2'),
+        url('Shabnam_1.woff') format('woff'),
+        url('Shabnam_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Shabnam';
+    src: url('Shabnam-Light_1.eot');
+    src: url('Shabnam-Light_1.eot?#iefix') format('embedded-opentype'),
+        url('Shabnam-Light_1.woff2') format('woff2'),
+        url('Shabnam-Light_1.woff') format('woff'),
+        url('Shabnam-Light_1.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Shabnam';
+    src: url('Shabnam-Light_2.eot');
+    src: url('Shabnam-Light_2.eot?#iefix') format('embedded-opentype'),
+        url('Shabnam-Light_2.woff2') format('woff2'),
+        url('Shabnam-Light_2.woff') format('woff'),
+        url('Shabnam-Light_2.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Shabnam';
+    src: url('Shabnam-Bold_2.eot');
+    src: url('Shabnam-Bold_2.eot?#iefix') format('embedded-opentype'),
+        url('Shabnam-Bold_2.woff2') format('woff2'),
+        url('Shabnam-Bold_2.woff') format('woff'),
+        url('Shabnam-Bold_2.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Shabnam';
+    src: url('Shabnam_2.eot');
+    src: url('Shabnam_2.eot?#iefix') format('embedded-opentype'),
+        url('Shabnam_2.woff2') format('woff2'),
+        url('Shabnam_2.woff') format('woff'),
+        url('Shabnam_2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

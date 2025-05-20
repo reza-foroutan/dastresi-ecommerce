@@ -1,0 +1,13 @@
+@theme {
+  --font-Shabnam: "Shabnam", sans-serif;
+
+  --color-gray: #f7f8fa;
+  --color-black-60: rgba(0, 0, 0, 0.6);
+  --color-gray-light: #a3a3a3;
+  --color-main-color: #0a5abd;
+  --color-black-2: rgba(0, 0, 0, 0.02);
+  --color-gray: #757575;
+  --color-black-87: rgba(0, 0, 0, 0.87);
+  --colortext-black-38: rgba(0, 0, 0, 0.38);
+  --color-thired-color: #FE5F55;
+}
