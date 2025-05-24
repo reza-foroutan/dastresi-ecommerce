@@ -5,6 +5,10 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + TS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
     <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
     <!-- Initialize CSS Website -->
     <link rel="stylesheet" type="text/css" href="./src/css/main.css" />
@@ -15,7 +19,10 @@
     <!-- Initialize header Website -->
     <header class="relative">
       <!-- Initialize desktop header Website -->
-      <div class="header-desktop w-full h-[132px] shadow font-Shabnam">
+      <div
+        class="fixed-header hidden fixed flex flex-col top-0 w-full z-70 lg:block bg-white disable-select shadow z-100 font-Shabnam"
+        id="main-nav"
+      >
         <div class="flex flex-col max-w-screen-xl mx-auto px-4 box-border mt-6">
           <!-- Initialize desktop header logo search login Website -->
           <div class="flex justify-between gap-4 items-center">
@@ -87,10 +94,9 @@
               <a
                 href="/basket"
                 class="shadow flex items-center justify-center hover-icon relative text-thired-color rounded-xl text-sm w-[42px] h-[42px] bg-gray"
-              >
-                <i class="text-xl icon-basket"></i>
+                ><i class="text-xl fa-solid fa-cart-shopping"></i>
                 <span
-                  class="cursor-pointer absolute bg-thired-color flex items-center justify-center rounded-full text-white font-medium basket-count shadow-blue-0-4"
+                  class="cursor-pointer absolute bg-thired-color flex items-center justify-center rounded-full text-white font-medium basket-count shadow-blue-0-4 top-[-8px] right-[-8px] px-1 box-border"
                   >0</span
                 >
               </a>
@@ -203,7 +209,7 @@
     </header>
     <!-- End Initialize header Website -->
     <!-- Initialize main Website -->
-    <main class="main-top-padding bg-black-2 relative min-h-screen">
+    <main class="main-top-padding bg-black-2 relative min-h-screen mt-[150px]">
       <!-- Initialize content wrapper Website -->
       <div id="content-wrap" class="px-4 pt-14 md:pt-0 box-border">
         <!-- Initialize slider Website -->
@@ -270,6 +276,7 @@
                   <div
                     class="flex items-center gap-2 font-bold text-2xl md:text-4xl"
                   >
+                    <i class="fa-solid fa-percent text-thired-color"></i>
                     <span class="font-Shabnam">تخفیف‌های روزانه دسترسی</span>
                   </div>
                   <div class="hidden md:block text-2xl text-gray">
@@ -604,12 +611,211 @@
             >
               دسته‌بندی‌های منتخب
             </h3>
-            <div class="w-full">
-              <div></div>
+            <div>
+              <!-- Swiper -->
+              <div class="swiper mySwiperCategories">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div
+                      class="categories w-[195px] h-[195px] flex justify-center items-center"
+                    >
+                      <a
+                        href="#"
+                        class="block w-[185px] h-[185px] flex justify-center items-center"
+                      >
+                        <div class="flex flex-col rounded-xl">
+                          <img
+                            src="./public/images/categories/gaming.png"
+                            alt="کنسول بازی و لوازم جانبی"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="categories w-[195px] h-[195px] flex justify-center items-center"
+                    >
+                      <a
+                        href="#"
+                        class="block w-[185px] h-[185px] flex justify-center items-center"
+                      >
+                        <div class="flex flex-col rounded-xl">
+                          <img
+                            src="./public/images/categories/cable.png"
+                            alt="کابل شارژ"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="categories w-[195px] h-[195px] flex justify-center items-center"
+                    >
+                      <a
+                        href="#"
+                        class="block w-[185px] h-[185px] flex justify-center items-center"
+                      >
+                        <div class="flex flex-col rounded-xl">
+                          <img
+                            src="./public/images/categories/gaming.png"
+                            alt="کنسول بازی و لوازم جانبی"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="categories w-[195px] h-[195px] flex justify-center items-center"
+                    >
+                      <a
+                        href="#"
+                        class="block w-[185px] h-[185px] flex justify-center items-center"
+                      >
+                        <div class="flex flex-col rounded-xl">
+                          <img
+                            src="./public/images/categories/cable.png"
+                            alt="کابل شارژ"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="categories w-[195px] h-[195px] flex justify-center items-center"
+                    >
+                      <a
+                        href="#"
+                        class="block w-[185px] h-[185px] flex justify-center items-center"
+                      >
+                        <div class="flex flex-col rounded-xl">
+                          <img
+                            src="./public/images/categories/gaming.png"
+                            alt="کنسول بازی و لوازم جانبی"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="categories w-[195px] h-[195px] flex justify-center items-center"
+                    >
+                      <a
+                        href="#"
+                        class="block w-[185px] h-[185px] flex justify-center items-center"
+                      >
+                        <div class="flex flex-col rounded-xl">
+                          <img
+                            src="./public/images/categories/cable.png"
+                            alt="کابل شارژ"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="categories w-[195px] h-[195px] flex justify-center items-center"
+                    >
+                      <a
+                        href="#"
+                        class="block w-[185px] h-[185px] flex justify-center items-center"
+                      >
+                        <div class="flex flex-col rounded-xl">
+                          <img
+                            src="./public/images/categories/gaming.png"
+                            alt="کنسول بازی و لوازم جانبی"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="categories w-[195px] h-[195px] flex justify-center items-center"
+                    >
+                      <a
+                        href="#"
+                        class="block w-[185px] h-[185px] flex justify-center items-center"
+                      >
+                        <div class="flex flex-col rounded-xl">
+                          <img
+                            src="./public/images/categories/cable.png"
+                            alt="کابل شارژ"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
             </div>
           </div>
         </div>
         <!-- End categories -->
+        <!-- Mojod Shod -->
+        <section class="max-w-screen-xl mx-auto mb-8">
+          <div class="w-full">
+            <div>
+              <div
+                class="px-4 pb-8 md:px-12 md:pb-8 bg-gray-e2 xl:rounded-xl mb-8 xl:mx-4 box-border"
+              >
+                <div
+                  class="w-full h-[100px] flex flex-row items-center relative py-0 md:py-2 md:box-border"
+                >
+                  <div class="flex w-full justify-between py-6 box-border">
+                    <span
+                      class="text-2xl text-center font-bold text-gray font-Shabnam"
+                    >
+                      همین الان موجود شد...
+                    </span>
+                    <a
+                      href=""
+                      class="flex text-base font-normal items-center gap-2 text-[#4e5e60] font-Shabnam"
+                    >
+                      <span class="text-sm hidden md:block"
+                        >مشاهده همه محصولات</span
+                      >
+                      <i class="text-xl icon-arrow-square-left"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="w-full h-[420px] bg-white">
+                  <!-- Swiper -->
+                  <div class="swiper mySwiperMojodShod">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="w-full h-full bg-slate-500  rounded-xl">
+                          <a href="" class="item flex flex-col justify-between rounded-xl shadow-md bg-white mb-2 hover-title"></a>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">Slide 2</div>
+                      <div class="swiper-slide">Slide 3</div>
+                      <div class="swiper-slide">Slide 4</div>
+                      <div class="swiper-slide">Slide 5</div>
+                      <div class="swiper-slide">Slide 6</div>
+                      <div class="swiper-slide">Slide 7</div>
+                      <div class="swiper-slide">Slide 8</div>
+                      <div class="swiper-slide">Slide 9</div>
+                    </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Mojod Shod -->
+        <!-- footer -->
+        <footer class="absolute bottom-0 w-full h-[0rem]"></footer>
+        <!-- End footer -->
       </div>
       <!-- End Initialize content wrapper Website -->
     </main>
