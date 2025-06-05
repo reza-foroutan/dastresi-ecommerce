@@ -31,7 +31,7 @@ var swiper = new Swiper(".mySwiperCategories", {
 // Initialize Mojod Shod Website
 var swiper = new Swiper(".mySwiperMojodShod", {
   slidesPerView: 4,
-  spaceBetween: 10,
+  spaceBetween: 20,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
